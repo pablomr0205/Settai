@@ -1,3 +1,54 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@next/next/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["unused-imports", "react", "react-hooks", "@typescript-eslint"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "@next/next/link-passhref": "off",
+    "jsx-a11y/alt-text": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "no-empty": "off",
+    "react/no-unescaped-entities": "off",
+    "no-undef": "off",
+    "@next/next/no-img-element": "off",
+    "react/prop-types": 0,
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  }
+}
