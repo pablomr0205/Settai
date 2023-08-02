@@ -1,10 +1,17 @@
-import { Box, Text } from '@mantine/core'
-import { memo } from 'react'
+import HeroHeader from '@/components/hero-header';
+import LetsTalk from '@/components/lets-talk';
+import Skills from '@/components/skills';
+import Trust from '@/components/trust';
+import { Box } from '@mantine/core';
+import { memo } from 'react';
 
 const Home = () => (
   <Box>
-    <Text component='h1'>Home</Text>
+    <HeroHeader />
+    <Trust />
+    <Skills />
+    <LetsTalk />
   </Box>
-)
+);
 
-export default memo(Home)
+export default memo(Home);

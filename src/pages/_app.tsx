@@ -1,7 +1,8 @@
-import { MantineProvider } from '@mantine/core'
-import type { AppProps } from 'next/app'
+import { MantineProvider } from '@mantine/core';
+import type { AppProps } from 'next/app';
+import NavBar from '@/components/navbar';
 
-import theme from '../styles/theme'
+import theme from '../styles/theme';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -13,7 +14,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         ...theme
       }}
     >
+      <NavBar />
       <Component {...pageProps} />
     </MantineProvider>
-  )
+  );
 }
