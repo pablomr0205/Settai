@@ -4,6 +4,7 @@ const LetsTalk = () => (
   <Center maw={1800} mx="auto">
     <Box
       sx={{
+        maxWidth: 1400,
         backgroundColor: 'white',
         padding: 20,
         margin: 20,

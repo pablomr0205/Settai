@@ -4,7 +4,7 @@ function Trust() {
   return (
     <>
       <Grid justify="center">
-        <Grid.Col span={2} sx={{ padding: 20, margin: 20 }}>
+        <Grid.Col span={2} display={'flex'} sx={{ padding: 20, margin: 20 }}>
           <Group>
             <Text sx={{ fontFamily: 'Poppins', fontSize: 45, fontWeight: 700 }}>
               I bring trusted solutions for your business
@@ -19,14 +19,14 @@ function Trust() {
             </Text>
           </Group>
         </Grid.Col>
-        <Grid.Col span={2} sx={{ padding: 20, margin: 20 }}>
+        <Grid.Col span={2} sx={{ padding: 20, margin: 30 }}>
           <Box sx={{ backgroundColor: 'white', padding: 20, margin: 20, height: 400, width: 400 }}></Box>
         </Grid.Col>
-        <Grid.Col span={2} sx={{ padding: 20, margin: 20 }}>
+        <Grid.Col span={2} sx={{ padding: 20, margin: 30 }}>
           <Box sx={{ backgroundColor: 'white', padding: 20, margin: 20, height: 400, width: 400 }}></Box>
         </Grid.Col>
       </Grid>
-      <Divider my="lg" variant="solid" color="white" />
+      <Divider my="lg" variant="solid" color="red" maw={1400} sx={{ margin: 'auto' }} />
     </>
   );
 }

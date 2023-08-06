@@ -1,31 +1,25 @@
-import { Box, Button, Group, Text, Center } from '@mantine/core';
+import { Box, Button, Text, Center } from '@mantine/core';
 
 const HeroHeader = () => (
   <Center>
-    <Box
-      sx={{
-        backgroundColor: 'white',
-        padding: 20,
-        margin: 20,
-        width: 1453,
-        height: 796
-      }}
-    >
+    <Box style={{ width: '100%', height: '100%', background: '#C0C3CC', maxWidth: 1400 }}>
       <Box
         sx={{
           backgroundColor: 'black',
-          width: 700,
+          width: 1059,
           height: 500,
-          alignContent: 'left',
-          alignItems: 'left'
+          margin: 20
         }}
       >
-        <Group
-          sx={{
-            display: 'block',
-            flexWrap: 'wrap',
-            justifyContent: 'center',
-            alignItems: 'center'
+        <div
+          style={{
+            width: '100%',
+            height: '100%',
+            transformOrigin: '0 0',
+            background: '#141515',
+            paddingTop: 80,
+            paddingLeft: 20,
+            textAlign: 'center'
           }}
         >
           <Text>Hi, I AM</Text>
@@ -33,10 +27,10 @@ const HeroHeader = () => (
             Gogrin
           </Text>
           <Text>I am Front-End Developer ready to take you business to a whole new level!</Text>
-        </Group>
-        <Button color="red" radius="xl" size="md">
-          JUMP FOR A QUICK MEETING
-        </Button>
+          <Button color="red" radius="xl" size="md" sx={{ marginTop: 80 }}>
+            JUMP FOR A QUICK MEETING
+          </Button>
+        </div>
       </Box>
     </Box>
   </Center>

@@ -4,7 +4,7 @@ import { IconPhoto } from '@tabler/icons-react';
 
 function Skills() {
   return (
-    <Center maw={1400} mx="auto">
+    <Center maw={1400} sx={{ margin: 'auto' }}>
       <Grid>
         <Grid.Col md={1} lg={2} p={20} m={20}>
           <ThemeIcon variant="default" color="grape">
