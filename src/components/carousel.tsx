@@ -140,7 +140,9 @@ export function CardsCarousel() {
   return (
     <>
       <Group sx={{ align: 'center' }}>
-        <Text sx={{ marginLeft: 540, fontSize: 45, fontWeight: 700, fontfamily: 'Poppins' }}>Latest work</Text>
+        <Text sx={{ marginTop: 60, marginLeft: 370, fontSize: 45, fontWeight: 700, fontfamily: 'Poppins' }}>
+          Latest work
+        </Text>
       </Group>
       <Center sx={{ marginLeft: '200' }}>
         <Carousel

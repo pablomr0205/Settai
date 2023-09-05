@@ -1,14 +1,13 @@
-import { Center, Grid, Text } from '@mantine/core';
-import { ThemeIcon } from '@mantine/core';
-import { IconPhoto } from '@tabler/icons-react';
+import { Center, Grid, Text, ThemeIcon } from '@mantine/core';
+import { IconBrowser, IconBoxMultiple, IconBadgeTm, IconBuildingStore } from '@tabler/icons-react';
 
 function Skills() {
   return (
-    <Center maw={1400} sx={{ margin: 'auto' }}>
-      <Grid>
+    <Center maw={1400} sx={{ margin: 'auto', paddingTop: 40, paddingBottom: 50 }}>
+      <Grid justify="center">
         <Grid.Col md={1} lg={2} p={20} m={20}>
-          <ThemeIcon variant="default" color="grape">
-            <IconPhoto />
+          <ThemeIcon color="transparent">
+            <IconBrowser />
           </ThemeIcon>
           <Text pt={20} pb={20}>
             Web Development
@@ -16,8 +15,8 @@ function Skills() {
           <Text>Methods and techniques to taking raw data -mining for insights and years of experience will.</Text>
         </Grid.Col>
         <Grid.Col md={1} lg={2} p={20} m={20}>
-          <ThemeIcon variant="default" color="grape">
-            <IconPhoto />
+          <ThemeIcon color="transparent">
+            <IconBoxMultiple />
           </ThemeIcon>
           <Text pt={20} pb={20}>
             Ui/Ux Design
@@ -25,8 +24,8 @@ function Skills() {
           <Text>Methods and techniques to taking raw data -mining for insights and years of experience will.</Text>
         </Grid.Col>
         <Grid.Col md={1} lg={2} p={20} m={20}>
-          <ThemeIcon variant="default" color="grape">
-            <IconPhoto />
+          <ThemeIcon color="transparent">
+            <IconBadgeTm />
           </ThemeIcon>
           <Text pt={20} pb={20}>
             Branding Design
@@ -34,8 +33,8 @@ function Skills() {
           <Text>Methods and techniques to taking raw data -mining for insights and years of experience will.</Text>
         </Grid.Col>
         <Grid.Col md={1} lg={2} p={20} m={20}>
-          <ThemeIcon variant="default" color="grape">
-            <IconPhoto />
+          <ThemeIcon color="transparent">
+            <IconBuildingStore />
           </ThemeIcon>
           <Text pt={20} pb={20}>
             Product Design

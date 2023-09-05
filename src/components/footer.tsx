@@ -1,6 +1,7 @@
 import {
   createStyles,
   Text,
+  Box,
   Title,
   SimpleGrid,
   TextInput,
@@ -11,7 +12,14 @@ import {
   rem,
   Divider
 } from '@mantine/core';
-import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
+import {
+  IconBrandTwitter,
+  IconBrandYoutube,
+  IconBrandInstagram,
+  IconHome,
+  IconAt,
+  IconPhone
+} from '@tabler/icons-react';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -62,8 +70,8 @@ const useStyles = createStyles((theme) => ({
   },
 
   input: {
-    backgroundColor: theme.white,
-    borderColor: theme.colors.gray[4],
+    backgroundColor: theme.colors.dark[6],
+    borderColor: theme.colors.gray[9],
     color: theme.black,
 
     '&::placeholder': {
@@ -76,7 +84,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   control: {
-    backgroundColor: theme.colors[theme.primaryColor][6]
+    backgroundColor: theme.colors[theme.primaryColor][5]
   }
 }));
 
@@ -94,7 +102,7 @@ export function ContactUs() {
   return (
     <div className={classes.wrapper}>
       <SimpleGrid cols={2} spacing={50} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
-        <div>
+        <Box>
           <Text fz={20} fw={700} variant="gradient" gradient={{ from: '#FD4766', to: 'blue', deg: 45 }}>
             #CONTACT INFO
           </Text>
@@ -102,17 +110,24 @@ export function ContactUs() {
           <Text className={classes.description} mt="sm" mb={30}>
             Methods and techniques to taking raw daa - mining for insights and years of expierence will.
           </Text>
-          <Text>Ta-134/A,Guishan Badda Link Rd, Nya 10982 USA</Text>
+          <Text display={'inline-flex'} sx={{ alignItems: 'center', justifyContent: 'space-around' }}>
+            <IconHome color="#FD4766" />
+            Ta-134/A,Guishan Badda Link Rd, Nya 10982 USA
+          </Text>
           <Divider my="lg" variant="solid" color="red" maw={400} />
-          <Text> RasalinaWilliam@gmail.com infoweb@gmail.com</Text>
+          <Text display={'inline-flex'} sx={{ alignItems: 'center', justifyContent: 'space-around' }}>
+            <IconAt color="#FD4766" />
+            RasalinaWilliam@gmail.com <br /> infoweb@gmail.com
+          </Text>
           <Divider my="lg" variant="solid" color="red" maw={400} />
           <br />
-          <Text>
+          <Text display={'inline-flex'} sx={{ alignItems: 'center', justifyContent: 'space-around' }}>
+            <IconPhone color="#FD4766" />
             +08 987878773 345 <br /> +887998 67563 345
           </Text>
 
           <Group mt="xl">{icons}</Group>
-        </div>
+        </Box>
         <div className={classes.form}>
           <Text fz={20} fw={700} variant="gradient" gradient={{ from: '#FD4766', to: 'blue', deg: 45 }}>
             #GET IN TOUCH

@@ -1,9 +1,12 @@
-import { Box, Text } from '@mantine/core';
+import APCreative from '@/components/About Page/AP-Creative';
+import APHeroHeader from '@/components/About Page/AP-Hero-header';
+import { Box } from '@mantine/core';
 import { memo } from 'react';
 
 const About = () => (
   <Box>
-    <Text component="h1">About</Text>
+    <APHeroHeader />
+    <APCreative />
   </Box>
 );
 

@@ -7,7 +7,7 @@ const theme: MantineThemeOverride = {
     sm: '36em', // 576px
     md: '48em', // 768px
     lg: '64em', // 1024px
-    xl: '90em', // 1440px
+    xl: '90em' // 1440px
   },
   colors: {
     purple: [
@@ -20,7 +20,7 @@ const theme: MantineThemeOverride = {
       '#4C4AA9', // [6]
       '#4C4B8F', // [7]
       '#4B4A7B', // [8]
-      '#47476A', // [9]
+      '#47476A' // [9]
     ],
     purple_dark: [
       '#E6E6F2', // [0]
@@ -32,7 +32,7 @@ const theme: MantineThemeOverride = {
       '#4A48BD', // [6]
       '#4B49A1', // [7]
       '#4B4A89', // [8]
-      '#494876', // [9]
+      '#494876' // [9]
     ],
     gray: [
       '#fcfcfc', // [0]
@@ -44,7 +44,7 @@ const theme: MantineThemeOverride = {
       '#ced4da', // [6]
       '#afb8be', // [7]
       '#71717a', // [8]
-      '#495057', // [9]
+      '#495057' // [9]
     ],
     dark: [
       '#C1C2C5', // [0]
@@ -56,34 +56,34 @@ const theme: MantineThemeOverride = {
       '#1D1D21', // [6]
       '#18181B', // [7]
       '#141517', // [8]
-      '#101113', // [9]
+      '#101113' // [9]
     ],
     success: [
-      '#4CAF50', // [0] Default
+      '#4CAF50' // [0] Default
     ],
     error: [
-      '#EF4444', // [0] Default
+      '#EF4444' // [0] Default
     ],
     warning: [
-      '#E5A21E', // [0] Default
-    ],
+      '#E5A21E' // [0] Default
+    ]
   },
   primaryShade: { light: 4, dark: 4 },
   spacing: {
     md: '1rem',
-    xl: '2rem',
+    xl: '2rem'
   },
   shadows: {
-    xs: '0px 1px 4px #15223214',
+    xs: '0px 1px 4px #15223214'
   },
   transitionTimingFunction: 'ease',
   components: {
     Divider: {
       defaultProps: {
         sx: {
-          borderTopColor: '#F4F4F51A',
-        },
-      },
+          borderTopColor: '#F4F4F51A'
+        }
+      }
     },
     Modal: {
       styles: {
@@ -92,21 +92,21 @@ const theme: MantineThemeOverride = {
           width: '100%',
           margin: '0 auto',
           padding: 16,
-          borderRadius: 8,
+          borderRadius: 8
         },
         body: {
-          padding: 0,
-        },
-      },
+          padding: 0
+        }
+      }
     },
     Drawer: {
       styles: {
         body: {
-          padding: 0,
-        },
-      },
-    },
-  },
+          padding: 0
+        }
+      }
+    }
+  }
 };
 
 export default theme;
