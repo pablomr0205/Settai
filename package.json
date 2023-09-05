@@ -7,15 +7,21 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepare": "husky install .husky"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@mantine/carousel": "^6.0.17",
     "@mantine/core": "^6.0.17",
     "@mantine/hooks": "^6.0.17",
+    "@mantine/next": "^6.0.17",
+    "@tabler/icons-react": "^2.30.0",
     "@types/node": "20.4.5",
     "@types/react": "18.2.16",
     "@types/react-dom": "18.2.7",
+    "embla-carousel-react": "^8.0.0-rc11",
     "eslint-config-next": "13.4.12",
     "next": "13.4.12",
     "react": "18.2.0",

@@ -15,7 +15,7 @@
     <a href="https://app.ora.pm/p/3de482c76a074d45b041e40c174c23ee?v=0&t=k"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://zetta.com">View Website</a>
+    <a href="https://zettai.com">View Website</a>
     ·
     <a href="https://app.ora.pm/p/3de482c76a074d45b041e40c174c23ee?v=0&t=k">Report Bug or Feature</a>
   </p>
@@ -98,7 +98,7 @@ Follow these steps to install and set up the project:
    ```
 4. Install NPM packages
    ```sh
-   npm install
+   yarn install
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +110,7 @@ Follow these steps to install and set up the project:
 Once you have completed the installation and configuration steps, you can run the project locally. Use the following command:
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 This will start the Next.js development server. Open your browser and navigate to http://localhost:3000 to see the project in action.
@@ -121,7 +121,7 @@ This will start the Next.js development server. Open your browser and navigate t
 
 ## Roadmap
 
-- [] coming soon
+- Home Page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
