@@ -86,7 +86,7 @@ Follow these steps to install and set up the project:
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:pablomr0205/zettai.git
+   git clone git@github.com:pablomr0205/Settai.git
    ```
 2. Move into the project directory
    ```sh
